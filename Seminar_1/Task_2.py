@@ -5,11 +5,10 @@
 
 list = []
 for i in range(5):
-    x = int(input(f'Введите число {i+1}: '))
-    list.append(x)
+    list.append(int(input(f"Введите число {i+1}: ")))
 print(list)
 max = list[0]
 for i in list:
     if max < i:
         max = i
-print(f'Максимальное число: {max}')
+print(f"Максимальное число: {max}")
