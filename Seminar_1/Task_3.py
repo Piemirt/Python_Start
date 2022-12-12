@@ -2,6 +2,15 @@
 #   Примеры:
 # - 5 -> -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5
 
+# n = int(input("Введите число: "))
+# print(*list(range(-n, n + 1)), sep=", ")
+
 n = int(input("Введите число: "))
-for i in range(-n, n + 1):
-    print(i, end=", ")
+if n > 0:
+    for i in range(-n, n):
+        print(i, end=", ")
+    print(n)
+else:
+    for i in range(-n, n, -1):
+        print(i, end=", ")
+    print(n)
