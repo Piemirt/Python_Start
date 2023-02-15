@@ -10,4 +10,4 @@ y2 = int(input("Введите координату B(y): "))
 
 result = ((((x2 - x1) ** 2) + ((y2 - y1) ** 2))) ** 0.5
 
-print("%.2f" % result)
+print(f"{result:.2f}")
