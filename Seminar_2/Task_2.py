@@ -6,4 +6,4 @@ d = dict()
 for i in range(1, n + 1):
     d[i] = 3 * i + 1
 for k, v in d.items():
-    print(f'{k}: {v}')
+    print(f'{k}:{v}', end=', ')
