@@ -7,7 +7,7 @@ mult = 1
 someList = [random.randint(-n, n) for _ in range(n)]
 print(someList)
 
-with open('file.txt', 'w+', encoding='utf-8') as file:
+with open('d:\Python\Python_Start\Seminar_2\HW_Task_4.txt', 'w+', encoding='utf-8') as file:
     count = random.randint(1, n)
     for _ in range(count):
         file.write(f'{random.randint(0, n - 1)}' + '\n')
